@@ -1,0 +1,20 @@
+{
+  "name": "kbwproject",
+  "version": "1.0.0",
+  "description": "cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:dashboard":"cypress run --record --key fe16ba5e-9e48-45f2-b159-e4fd0353a8f1"
+    
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "tp",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.1"
+  }
+}
